@@ -1,0 +1,11 @@
+tracer:
+  open_telemetry_collector:
+    http:
+      - address: otel-collector:4318
+        secure: false
+    grpc:
+      - address: otel-collector:4317
+        secure: false
+    sampling:
+      enabled: false
+      ratio: 0.85 # No default (optional)

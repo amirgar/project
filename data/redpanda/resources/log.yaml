@@ -1,0 +1,45 @@
+output_resources:
+  - label: dev_null
+    file:
+      path: /dev/null
+
+  - label: stdout
+    stdout:
+      codec: lines
+
+  # - label: otlog_info
+  #   processors:
+  #     - mapping: |
+  #         [{
+  #           "timestamp": timestamp_unix_nano(),
+  #           "trace_id": tracing_id(),
+  #           "span_id": tracing_span().traceparent.encode("hex"),
+  #           "trace_flags": 0,
+  #           "severity_text": "info",
+  #           "severity_number": 4,
+  #           "message": meta("message").string()
+  #         }]
+  #   http_client:
+  #     url: http://otel-collector:8082
+  #     headers:
+  #       Content-Type: application/json
+
+  # - label: otlog_warn
+  #   processors:
+  #     - mapping: |
+  #         [{
+  #           "timestamp": timestamp_unix_nano(),
+  #           "trace_id": tracing_id(),
+  #           "span_id": tracing_span().traceparent.encode("hex"),
+  #           "trace_flags": 0,
+  #           "severity_text": "warn",
+  #           "severity_number": 3,
+  #           "message": error().string()
+  #         }]
+  #   http_client:
+  #     url: http://otel-collector:8082
+  #     headers:
+  #       Content-Type: application/json
+  #     batching:
+  #       count: 1000
+  #       period: "10s"

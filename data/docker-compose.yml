@@ -1,0 +1,240 @@
+# Загружаем данные о других сервисах с помощью  volumes
+volumes:
+  redpanda:
+  minio:
+  zookeeper:
+  clickhouse:
+  signoz:
+
+# Описание сервисов, которые одновременно будут работать
+services:
+  # Название одного из сервисов
+  redpanda:
+    container_name: redpanda # Имя контейнера 
+    # Образ устанвливаемого контейнера Redpanda (в данном случае можно было написать необходимую версию вместо latest)
+    image: redpandadata/redpanda:latest 
+    # Выполнение команды start при сборке сервиса с указанием всех необходимых при сборке дополнителных параметров 
+    command:
+      - redpanda
+      - start
+      - --smp 1
+      - --memory 512M
+      - --reserve-memory 0M
+      - --overprovisioned
+      - --node-id 0
+      - --set redpanda.auto_create_topics_enabled=true
+      - --kafka-addr PLAINTEXT://0.0.0.0:29092,OUTSIDE://0.0.0.0:9092
+      - --advertise-kafka-addr PLAINTEXT://redpanda:29092,OUTSIDE://redpanda:9092
+    ports: [ "9092:9092" ]  # Переключаемся с порта 9092 сервера на порт 9092 компьютера
+    volumes:  # Хранить данные на постоянке, даже после прекращения цикла жизни контейнера
+      - redpanda:/var/lib/redpanda/data
+      - /etc/localtime:/etc/localtime:ro
+    healthcheck:  # Чекаем все ли норм с нашим сервисом
+      test: [ "CMD-SHELL", "rpk cluster health | grep -E 'Healthy:.+true' || exit 1" ]
+      interval: 5s
+      timeout: 1s
+      retries: 30
+    restart: on-failure  # При каком статусе перезапускается сервис (в данном случае при падении самого сервиса)
+
+  redpanda-connect:
+    container_name: redpanda-connect
+    build: ./redpanda  # Директория в которой содержится необходимый Dockerfile
+    command: [ 
+      "-w", 
+      # "-c", 
+      # "/connect.yaml", 
+      "-r", 
+      "/resources/*.yaml", 
+      "streams", 
+      "/streams/*/*.yaml", 
+      "/streams/*/*/*.yaml" ]
+    volumes:
+      - ./redpanda/redpanda-connect.yaml:/connect.yaml
+      - ./redpanda/resources:/resources
+      - ./redpanda/templates:/templates
+      - ./redpanda/streams:/streams
+      - ./redpanda/storage:/storage
+      - /etc/localtime:/etc/localtime:ro
+    depends_on:  # Какие сервисы должны были быть запущены до этого
+      redpanda:
+        condition: service_healthy
+    restart: on-failure
+
+  redpanda-console:
+    container_name: redpanda-console
+    image: redpandadata/console:latest
+    volumes:
+      - ./redpanda:/etc/redpanda/
+    environment:  #  Создание переменной окрудение в данном контейнере
+      CONFIG_FILEPATH: /etc/redpanda/redpanda-console.yaml
+    ports: [ "8080:8080" ]
+    depends_on:
+      redpanda:
+        condition: service_healthy
+    
+  # nginx:
+  #   image: nginx:latest
+  #   container_name: nginx
+  #   volumes:
+  #     - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+  #     - ../certs:/certs
+  #   ports: [443:443]
+  #   healthcheck:
+  #     test: service nginx status || exit 1
+  #     interval: 1s
+  #     timeout: 1s
+  #     retries: 30
+  #   restart: unless-stopped
+
+  # zookeeper:
+  #   container_name: zookeeper
+  #   image: bitnami/zookeeper:3.7
+  #   user: root
+  #   volumes:
+  #     - zookeeper:/bitnami/zookeeper
+  #   environment:
+  #     ZOO_SERVER_ID: 1
+  #     ALLOW_ANONYMOUS_LOGIN: yes
+  #     ZOO_AUTOPURGE_INTERVAL: 1
+  #   restart: on-failure
+  #
+  # clickhouse:
+  #   container_name: clickhouse
+  #   image: clickhouse/clickhouse-server:24-alpine
+  #   ulimits:
+  #     nproc: 65535
+  #     nofile:
+  #       soft: 262144
+  #       hard: 262144
+  #   # ports:
+  #   #   # - "9000:9000"
+  #   #   - "8123:8123"
+  #   #   - "9181:9181"
+  #   environment:
+  #     ALLOW_EMPTY_PASSWORD: yes
+  #   volumes:
+  #     - clickhouse:/var/lib/clickhouse/
+  #     - ./signoz/clickhouse/user_scripts/:/var/lib/clickhouse/user_scripts/
+  #     - ./signoz/clickhouse/custom-function.xml:/etc/clickhouse-server/custom-function.xml
+  #     - ./signoz/clickhouse/clickhouse-config.xml:/etc/clickhouse-server/config.xml
+  #     - ./signoz/clickhouse/clickhouse-users.xml:/etc/clickhouse-server/users.xml
+  #     - ./signoz/clickhouse/clickhouse-cluster.xml:/etc/clickhouse-server/config.d/cluster.xml
+  #     # - ./clickhouse-storage.xml:/etc/clickhouse-server/config.d/storage.xml
+  #   cap_add: [SYS_TIME, SYS_NICE]
+  #   healthcheck:
+  #     test: ["CMD", "wget", "--spider", "-q", "0.0.0.0:8123/ping"]
+  #     interval: 5s
+  #     timeout: 5s
+  #     retries: 30
+  #   depends_on:
+  #     - zookeeper
+  #   restart: on-failure
+  #
+  # otel-collector-migrator:
+  #   container_name: otel-migrator
+  #   image: signoz/signoz-schema-migrator:0.102.10
+  #   command: ["--dsn=tcp://clickhouse:9000"]
+  #   depends_on:
+  #     clickhouse:
+  #       condition: service_healthy
+  #
+  # query-service:
+  #   image: signoz/query-service:0.55.0
+  #   container_name: signoz-query-service
+  #   command: [
+  #       "-config=/root/config/prometheus.yml",
+  #       # "--prefer-delta=true"
+  #     ]
+  #   # ports:
+  #   #   - "6060:6060"     # pprof port
+  #   #   - "8080:8080"     # query-service port
+  #   volumes:
+  #     - ./signoz/query-service/prometheus.yml:/root/config/prometheus.yml
+  #     - ../dashboards:/root/config/dashboards
+  #     - signoz:/var/lib/signoz/
+  #   environment:
+  #     ClickHouseUrl: tcp://clickhouse:9000
+  #     ALERTMANAGER_API_PREFIX: http://alertmanager:9093/api/
+  #     SIGNOZ_LOCAL_DB_PATH: /var/lib/signoz/signoz.db
+  #     DASHBOARDS_PATH: /root/config/dashboards
+  #     STORAGE: clickhouse
+  #     GODEBUG: netdns=go
+  #     TELEMETRY_ENABLED: true
+  #     DEPLOYMENT_TYPE: docker-standalone-amd
+  #   healthcheck:
+  #     test: ["CMD", "wget", "--spider", "-q", "localhost:8080/api/v1/health"]
+  #     interval: 30s
+  #     timeout: 5s
+  #     retries: 3
+  #   depends_on:
+  #     clickhouse:
+  #       condition: service_healthy
+  #     otel-collector-migrator:
+  #       condition: service_completed_successfully
+  #   restart: on-failure
+  #
+  # otel-collector:
+  #   container_name: signoz-otel-collector
+  #   image: signoz/signoz-otel-collector:0.102.2
+  #   command:
+  #     [
+  #       "--config=/etc/otel-collector-config.yaml",
+  #       "--manager-config=/etc/manager-config.yaml",
+  #       "--copy-path=/var/tmp/collector-config.yaml",
+  #       "--feature-gates=-pkg.translator.prometheus.NormalizeName",
+  #     ]
+  #   user: root
+  #   volumes:
+  #     - /:/hostfs:ro
+  #     - /var/lib/docker/containers:/var/lib/docker/containers:ro
+  #     - ./signoz/otel-collector/otel-collector-config.yaml:/etc/otel-collector-config.yaml
+  #     - ./signoz/otel-collector/otel-collector-opamp-config.yaml:/etc/manager-config.yaml
+  #   environment:
+  #     OTEL_RESOURCE_ATTRIBUTES: host.name=signoz-host,os.type=linux
+  #     DOCKER_MULTI_NODE_CLUSTER: false
+  #     LOW_CARDINAL_EXCEPTION_GROUPING: false
+  #   ports:
+  #     # - "1777:1777"     # pprof extension
+  #     - "4317:4317" # OTLP gRPC receiver
+  #     - "4318:4318" # OTLP HTTP receiver
+  #     - "8082:8082" # LOGs HTTP receiver
+  #     # - "8888:8888"     # OtelCollector internal metrics
+  #     # - "8889:8889"     # signoz spanmetrics exposed by the agent
+  #     # - "9411:9411"     # Zipkin port
+  #     # - "13133:13133"   # health check extension
+  #     # - "14250:14250"   # Jaeger gRPC
+  #     # - "14268:14268"   # Jaeger thrift HTTP
+  #
+  #     # - "55678:55678"   # OpenCensus receiver
+  #     # - "55679:55679"   # zPages extension
+  #   depends_on:
+  #     clickhouse:
+  #       condition: service_healthy
+  #     otel-collector-migrator:
+  #       condition: service_completed_successfully
+  #     query-service:
+  #       condition: service_healthy
+  #   restart: on-failure
+  #
+  # alertmanager:
+  #   container_name: signoz-alertmanager
+  #   image: signoz/alertmanager:0.23.7
+  #   command:
+  #     [--queryService.url=http://query-service:8085, --storage.path=/data]
+  #   volumes:
+  #     - alertmanager:/data
+  #   depends_on:
+  #     query-service:
+  #       condition: service_healthy
+  #   restart: on-failure
+  #
+  # frontend:
+  #   container_name: signoz-frontend
+  #   image: signoz/frontend:0.55.0
+  #   ports: ["3301:3301"]
+  #   volumes:
+  #     - ./signoz/nginx-config.conf:/etc/nginx/conf.d/default.conf
+  #   depends_on:
+  #     - query-service
+  #     - alertmanager
+  #   restart: on-failure

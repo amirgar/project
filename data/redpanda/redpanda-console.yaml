@@ -1,0 +1,10 @@
+# connect:
+#   enabled: true
+#   clusters:
+#     - name: redpanda
+#       url: http://redpanda:9092
+#       tls:
+#         enabled: false
+kafka:
+  brokers:
+    - redpanda:9092
