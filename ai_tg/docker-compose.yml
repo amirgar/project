@@ -1,0 +1,27 @@
+volumes:
+  postgres:
+
+services:
+  llama-cpp:
+    container_name: llama-cpp
+    # image: ghcr.io/ggml-org/llama.cpp:server-cuda
+    image: ghcr.io/ggml-org/llama.cpp:server
+    pull_policy: always
+    expose: [ 8080 ]
+    volumes:
+      - ../models:/models
+    environment:
+      LLAMA_ARG_NO_WEBUI: True
+      LLAMA_ARG_MLOCK: True
+      # LLAMA_ARG_FLASH_ATTN: True
+      LLAMA_ARG_MODEL: /models/OCRFlux-3B.Q4_K_S.gguf
+      # LLAMA_ARG_N_GPU_LAYERS: 40
+      LLAMA_ARG_CTX_SIZE: 2048
+      LLAMA_API_KEY: DUMMY_API_KEY
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
