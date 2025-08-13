@@ -1,0 +1,16 @@
+input:
+  opcua:
+    endpoint: opc.tcp://10.150.3.20:4842
+    useHeartbeat: true
+    nodeIDs:
+      - ns=2;s=driver:cf554b73-c591-492b-b625-ed12377bb313:state:80f21739-65ef-4736-b6de-66c69c69dbec:Data:EnginePartNumber
+      - ns=2;s=driver:cf554b73-c591-492b-b625-ed12377bb313:state:80f21739-65ef-4736-b6de-66c69c69dbec:Data:EngineSerialNumber
+      - ns=2;s=driver:cf554b73-c591-492b-b625-ed12377bb313:state:80f21739-65ef-4736-b6de-66c69c69dbec:Data:TransportationCode
+  processors:
+    - mapping: |
+        [
+          "opc",
+          "epjasm.op60",
+          {meta("opcua_tag_name").string(): content().string()}.string()
+        ]
+

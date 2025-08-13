@@ -1,0 +1,15 @@
+input:
+  generate:
+    interval: 5s
+    mapping: |
+      meta source = "epjasm.op60" 
+      root = {
+        "trigger": "test1"
+      }
+
+output:
+  label: ""
+  kafka_franz:
+    seed_brokers: [redpanda:9092] # No default (required)
+    topic: "data" # No default (required)
+    key: "key" # No default (optional)

@@ -1,4 +1,5 @@
 docker compose down --remove-orphans
+<<<<<<< HEAD
 docker compose up --build
 
 
@@ -39,3 +40,7 @@ CREATE TABLE act_tool_data (
 PARTITION BY toStartOfHour(toDateTime(ts))  -- Partition by the start of the hour of the timestamp
 ORDER BY (name, ts)  -- Order by name first, then by timestamp for efficient querying
 SETTINGS index_granularity = 8192;  -- Adjust index granularity as needed
+=======
+
+docker compose up --build
+>>>>>>> origin/main
