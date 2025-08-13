@@ -1,0 +1,29 @@
+input:
+  label: ""
+  kafka:
+    addresses: ["redpanda:9092"] # No default (required)
+    topics: ["data"] # No default (required)
+    # target_version: 2.1.0 # No default (optional)
+    consumer_group: "test" # No default (optional)
+    checkpoint_limit: 1024
+    auto_replay_nacks: true
+
+output:
+  http_client:
+    url: http://myuser:mypassword@clickhouse-server:8123?query=INSERT+INTO+default.data+FORMAT+JSONEachRow
+    verb: POST
+    headers:
+      Content-Type: application/json
+      Content-Encoding: gzip
+    rate_limit: ""
+    timeout: 5s
+    max_in_flight: 5
+    batching:
+      count: 50
+      period: 5s
+      processors:
+        - archive:
+            format: lines
+        - compress:
+            algorithm: gzip
+            level: 5
