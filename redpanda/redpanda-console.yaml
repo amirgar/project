@@ -7,4 +7,4 @@
 #         enabled: false
 kafka:
   brokers:
-    - redpanda:9092
+    - 10.0.2.22:9092

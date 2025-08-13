@@ -1,0 +1,25 @@
+<clickhouse>
+    <logger>
+        <level>information</level>
+        <log>/var/log/clickhouse-server/clickhouse-server.log</log>
+        <errorlog>/var/log/clickhouse-server/clickhouse-server.err.log</errorlog>
+        <size_limit>100M</size_limit>
+        <count>5</count>
+    </logger>
+    <format_schema_path>/etc/clickhouse-server/format_schemas</format_schema_path>
+
+    <listen_host>0.0.0.0</listen_host> <!-- Listen on all interfaces -->
+    <tcp_port>9000</tcp_port>
+    <http_port>8123</http_port>
+
+    <path>/var/lib/clickhouse/</path>
+    <tmp_path>/var/lib/clickhouse/tmp/</tmp_path>
+    <user_files_path>/var/lib/clickhouse/user_files/</user_files_path>
+
+    <display_name>my_clickhouse_server</display_name>
+    <user_directories>
+        <users_xml>
+            <path>/etc/clickhouse-server/users.xml</path>
+        </users_xml>
+    </user_directories>
+</clickhouse>

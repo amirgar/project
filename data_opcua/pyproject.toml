@@ -1,0 +1,79 @@
+[project]
+name = "app"
+version = "0.1.0"
+requires-python = ">=3.11, <3.14"
+dependencies = [
+    # python base 
+    "pydantic-settings",
+    "pydantic",
+    # app
+    "asyncua",
+    "aiokafka",
+    "objprint",
+]
+
+# https://docs.astral.sh/ruff/configuration/
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "FIX",
+    "TD",      # disable todo warnings
+    "ERA",     # allow commented out code
+    "ANN003",  # missing kwargs
+    "B006",
+    "B008",
+    "COM812",  # trailing comma
+    "D10",     # disabled required docstrings
+    "D401",
+    "EM102",
+    "FBT001",
+    "FBT002",
+    "PLR0913",
+    "PLR2004", # magic
+    "RET504",
+    "RET505",
+    "RET508",
+    "S101",    # allow assert
+    "S104",
+    "S603",    # subprocess untrusted input
+    "SIM102",
+    "T201",    # print
+
+    "TRY003",
+    "W505",
+    "ISC001", # recommended to disable for formatting
+    "INP001",
+    "PT018",
+    "G004",   # logging f string
+    "E501",   # line-too-long
+]
+
+[tool.ruff.isort]
+force-sort-within-sections = true
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+
+quote-style = "double"
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
+pythonVersion = "3.12"
+pythonPlatform = "Linux"
+# https://github.com/DetachHead/basedpyright?tab=readme-ov-file#pre-commit-hook
+venvPath = "."
+venv = ".venv"
+
+[tool.uv]
+constraint-dependencies = ["llvmlite>=0.40.0"]

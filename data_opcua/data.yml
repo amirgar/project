@@ -1,0 +1,1171 @@
+i=85:
+  ns=2;s=0401000008_AVZ_NHP6300_OPC_UA:
+    ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300:
+      ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik:
+        ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis:
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.AA_OFF_MODE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.AC_FILTER_TIME: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.AXIS_NUMBER_FOR_MONITORING: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.AX_MOTION_DIR: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.CTRLOUT_MODULE_NR: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.CTRLOUT_TYPE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.DISPLAY_IS_MODULO: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.ENC_MODULE_NR: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.ENC_TYPE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.FFW_MODE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.GAIN_FOR_MONITORING: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.GANTRY_AXIS_TYPE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.IS_ROT_AX: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.LOAD_SMOOTH_FILTER_TIME: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.MDCA_CTRLOUT_MODULE_NR: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.MDCA_CTRLOUT_TYPE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.MDCA_ENC_MODULE_NR: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.MDCA_ENC_TYPE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.MODULO_RANGE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.OFFSETVALUE_FOR_MONITORING: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.POS_LIMIT_MINUS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.POS_LIMIT_PLUS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.POWER_SMOOTH_FILTER_TIME: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.ROT_IS_MODULO: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.SAFE_ACT_CHECKSUM: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.SAFE_CAM_ENABLE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.SAFE_CONFIG_CHANGE_DATE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.SAFE_DES_VELO_LIMIT: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.SAFE_FUNCTION_ENABLE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.SAFE_VELO_OVR_FACTOR: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Drive.SPIND_ASSIGN_TO_MACHAX: null
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.AA_OFF_LIMIT: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.MDB_WORKAREA_MINUS_ENABLE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.MDB_WORKAREA_PLUS_ENABLE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.MDD_SPIND_MAX_VELO_G26: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.MDD_SPIND_MAX_VELO_LIMS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.MDD_SPIND_MIN_VELO_G25: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.MDD_WORKAREA_LIMIT_MINUS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.MDD_WORKAREA_LIMIT_PLUS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.SPIND_MAX_VELO_G26: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.SPIND_MAX_VELO_LIMS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.SPIND_MIN_VELO_G25: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.WORKAREA_LIMIT_MINUS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.WORKAREA_LIMIT_PLUS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.WORKAREA_MINUS_ENABLE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Axis.Settings.WORKAREA_PLUS_ENABLE: null
+        ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel:
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaAcsRel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaDelt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaDiamStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaDtbw: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaDtepw: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaDtew: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaDtsb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaDtsw: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaIb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaIbCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaIbc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaItr1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaItr2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaItr3: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaIwCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaMw: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaMw1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaMw2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaMw3: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaMw4: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaPcsRel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaSccStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaTOff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaTOffLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaTOffPrepDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaTOffVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.aaVactW: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.acRetpoint: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actDistToGoEns: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actFeedRate: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actFeedRateIpo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actIncrVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actProgPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actProgPosBKS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasPosBN: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasPosBNDiam: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasPosEN: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasPosENitc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasPosENjmp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasePosBasic: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasePosBasicDiam: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolBasePosDiam: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolEdgeCenterPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.actToolEdgeCenterPosEns: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.axisActiveInChan: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.axisFeedRateIpoUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.axisFeedRateUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.cmdFeedRate: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.cmdFeedRateIpo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.cmdProgPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.cmdToolBasPosENS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.cmdToolBasePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.cmdToolEdgeCenterPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.cmdToolEdgeCenterPosEns: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.cmdToolEdgeCenterPosEnsS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.diamonInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.displayAxis: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.drfVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.effComp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.extUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.feedRateOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.geoAxisNr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.handwheelAss: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.index: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.motEnd: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.name: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.progDistToGo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.progREPOS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.spec: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.status: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.subSpec: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.subType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.toolBaseDistToGo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.toolBaseREPOS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.toolEdgeCenterDistToGo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.toolEdgeCenterREPOS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.type: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.vaIb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.vaIbc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.vaItr1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.vaItr2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.vaItr3: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.vaIw: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.GeometricAxis.varIncrVal: null
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acConstCutS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSDir: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSGear: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSVC: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSmaxAcc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSmaxAccInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSmaxVelo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSmaxVeloInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSminVelo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSminVeloInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.acSpindState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.actGearStage: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.actSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.channelNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.cmdAngPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.cmdConstCutSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.cmdGearStage: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.cmdGwps: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.cmdSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.driveLoad: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.gwpsActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.index: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.name: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.namePhys: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.opMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.pSMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.pSModeS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.psModePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.psModePosBKS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.psModePosS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.speedLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.speedOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.spindleType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.status: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.turnState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.LogicalSpindle.vcSGear: null
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.PRESETActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.PRESETVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaAcc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaAccPercent: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaActIndexAxPosNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaAlarmStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaAxChangeStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaAxChangeTyp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaAxDisable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaAxDisableSrc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaBcsOffset: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaBrakeCondB: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaBrakeCondM: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaBrakeState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaChanNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaCollPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaCoupAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaCoupCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaCoupCorrDist: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaCoupOffs: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaCurr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDepAxO: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDesValFiltersSelect: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbreb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbrebCmd: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbrebCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbrebDep: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbrem: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbremCmd: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbremCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtbremDep: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDteb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaDtepb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaEnc1Active: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaEnc2Active: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaEncActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaEsrEnable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaEsrStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaEsrTrigger: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaFixPointSelected: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaIbnCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaIenCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaIm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaIm1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaIm2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaInSync: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaInposStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaIpoNcChanax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaJerkCount: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaJerkTime: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaJerkTotal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaJogPosAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaJogPosSelected: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaLeadP: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaLeadPTurn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaLeadSp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaLeadSv: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaLeadV: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaLoad: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaLoadSmooth: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMachax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMaslDef: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMaslState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMeaAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMm1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMm2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMm3: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaMm4: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOffLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOffVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOnFixPoint: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOscillBreakPos1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOscillBreakPos2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOscillReversePos1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOscillReversePos2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaPlcOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaPolfa: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaPolfaValid: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaPosRes: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaPower: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaPowerSmooth: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaProgIndexAxPosNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaRef: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaReposDelay: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaScPar: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaSnglAxStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaSoftendn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaSoftendp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaSync: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaSyncDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaSyncDiffStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTorque: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTotalOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTravelCount: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTravelCountHS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTravelDist: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTravelDistHS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTravelTime: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTravelTimeHS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaTyp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaVactB: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaVactM: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.aaVc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.acRpValid: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.ackSafeMeasPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.actCouppPosOffset: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.actFeedRate: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.actIncrVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.actIndexAxPosNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.actSpeedRel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.actToolBasePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.actValResol: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.activeSvOverride: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.amSetupState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.axComp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.axisActiveInChan: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.axisFeedRateUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.chanAxisNoGap: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.chanNoAxisIsActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.clampStatus: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.cmdContrPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.cmdCouppPosOffset: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.cmdFeedRate: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.cmdSpeedRel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.cmdToolBasePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.contrConfirmActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.contrMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.displayAxis: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.distPerDriveRevol: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.drfVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.drive2ndTorqueLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveActMotorSwitch: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveActParamSet: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveClass1Alarm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveContrMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveCoolerTempWarn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveDdsPerMds: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveDesMotorSwitch: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveDesParamSet: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveFastStop: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveFreqMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveImpulseEnabled: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveIndex: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveIntegDisable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveLinkVoltageOk: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveMotorTempWarn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveNumCrcErrors: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveParked: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.drivePowerOn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveProgMessages: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveReady: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveRunLevel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveSetupMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.driveSpeedSmoothing: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.effComp1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.effComp2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.enc1IsOn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.enc2IsOn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.encChoice: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.extUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.fctGenState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.feedRateOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.focStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.fxsInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.fxsStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.handwheelAss: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.impulseEnable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.index: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.isDriveUsed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.kVFactor: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.lag: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.logDriveNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.measFctState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.measPos1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.measPos2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.measPosDev: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.measUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.name: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.paramSetNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.preContrFactTorque: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.preContrFactVel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.preContrMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.progIndexAxPosNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.qecLrnIsOn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.refPtBusy: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.refPtCamNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.refPtPhase: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.refPtStatus: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.resolvStatus1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.resolvStatus2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeAcceptCheckPhase: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeAcceptTestMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeAcceptTestPhase: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeAcceptTestSE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeAcceptTestState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeActPosDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeActVeloDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeActVeloLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeActiveCamTrack: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeAxisType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeDesChecksum1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeDesVeloLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeFctEnable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeInputSig: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeInputSig2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeInputSigDrive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeInputSigDrive2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeMaxVeloDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeMeasPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeMeasPosDrive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeOutputSig: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeOutputSig2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeOutputSigCam: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeOutputSigCamDrive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeOutputSigDrive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeOutputSigDrive2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safePosCtrlActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.safeStopOtherAxis: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.spec: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.spindleModePiState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.stateContrActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.status: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.subSpec: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.toolBaseDistToGo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.toolBaseREPOS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.torqLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.traceState1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.traceState2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.traceState3: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.traceState4: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.trackErrContr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.trackErrDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.type: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAbsoluteEnc1DeltaInit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAbsoluteEnc1ErrCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAbsoluteEnc1State: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAbsoluteEnc1ZeroMonMax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAbsoluteEnc2DeltaInit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAbsoluteEnc2ErrCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAbsoluteEnc2State: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAbsoluteEnc2ZeroMonMax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaAxForce: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaCcCompValTotal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaCecCompVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaCpSync2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaCurr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaDesValFiltersActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaDesValFiltersDelay1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaDesValFiltersDelay2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaDesValFiltersDeltaPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaDistTorque: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaDpe: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc1CompVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc1ZeroMonAccessCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc1ZeroMonAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc1ZeroMonErrCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc1ZeroMonInit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc2CompVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc2ZeroMonAccessCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc2ZeroMonAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc2ZeroMonErrCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaEnc2ZeroMonInit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaFoc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaFxs: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaIm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaIm1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaIm2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaIpoNcChanax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaLagError: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaLoad: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaMotClampingState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaMotSensorAna: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaMotSensorConf: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaMotSensorDigi: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaPosctrlMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaPower: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaPressureA: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaPressureB: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaSce: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaStopSi: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaSyncDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaSyncDiffStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaTempCompVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaTorque: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaTorqueAtLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaVactm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaValveLift: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.vaXfaultSi: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.MachineAxis.varIncrVal: null
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acConstCutS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSDir: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSGear: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSVC: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSmaxAcc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSmaxAccInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSmaxVelo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSmaxVeloInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSminVelo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSminVeloInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.acSpindState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.actGearStage: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.actSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.channelNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.cmdAngPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.cmdConstCutSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.cmdGearStage: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.cmdGwps: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.cmdSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.driveLoad: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.gwpsActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.index: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.name: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.namePhys: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.opMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.pSMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.pSModeS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.psModePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.psModePosBKS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.psModePosS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.speedLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.speedOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.spindleType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.status: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.turnState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Channel.Spindle.vcSGear: null
+        ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck:
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acConstCutS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSGear: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSVC: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSmaxAcc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSmaxAccInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSmaxVelo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSmaxVeloInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSminVelo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSminVeloInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.acSpindState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.actGearStage: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.actSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.channelNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.cmdAngPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.cmdConstCutSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.cmdGearStage: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.cmdGwps: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.cmdSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.driveLoad: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.gwpsActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.index: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.name: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.namePhys: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.opMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.pSMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.pSModeS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.psModePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.psModePosS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.speedLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.speedOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.spindleType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.status: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.turnState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.LogicalSpindle.vcSGear: null
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.PRESETActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.PRESETVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaAcc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaAccPercent: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaActIndexAxPosNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaAlarmStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaAxChangeStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaAxChangeTyp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaBcsOffset: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaBrakeCondB: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaBrakeCondM: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaBrakeState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaChanNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaCollPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaCoupAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaCoupCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaCoupCorrDist: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaCoupOffs: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaCurr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDepAxO: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDesValFiltersSelect: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbreb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbrebCmd: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbrebCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbrebDep: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbrem: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbremCmd: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbremCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtbremDep: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDteb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaDtepb: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaEnc1Active: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaEnc2Active: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaEncActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaEsrEnable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaEsrStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaEsrTrigger: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaFixPointSelected: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaIbnCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaIenCorr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaIm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaIm1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaIm2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaInSync: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaInposStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaIpoNcChanax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaJerkCount: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaJerkTime: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaJerkTotal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaJogPosAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaJogPosSelected: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaLeadP: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaLeadPTurn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaLeadSp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaLeadSv: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaLeadV: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaLoad: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaLoadSmooth: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMachax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMaslDef: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMaslState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMeaAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMm1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMm2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMm3: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaMm4: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOffLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOffVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOnFixPoint: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOscillBreakPos1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOscillBreakPos2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOscillReversePos1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOscillReversePos2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaPlcOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaPolfa: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaPolfaValid: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaPosRes: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaPower: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaPowerSmooth: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaProgIndexAxPosNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaRef: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaReposDelay: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaScPar: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaSnglAxStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaSoftendn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaSoftendp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaSync: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaSyncDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaSyncDiffStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTorque: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTotalOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTravelCount: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTravelCountHS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTravelDist: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTravelDistHS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTravelTime: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTravelTimeHS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaTyp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaVactB: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaVactM: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.aaVc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.acRpValid: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.ackSafeMeasPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.actCouppPosOffset: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.actFeedRate: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.actIncrVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.actIndexAxPosNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.actSpeedRel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.actToolBasePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.actValResol: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.activeSvOverride: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.amSetupState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.axComp: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.axisActiveInChan: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.axisFeedRateUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.chanAxisNoGap: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.chanNoAxisIsActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.clampStatus: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.cmdContrPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.cmdCouppPosOffset: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.cmdFeedRate: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.cmdSpeedRel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.cmdToolBasePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.contrConfirmActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.contrMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.displayAxis: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.distPerDriveRevol: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.drfVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.drive2ndTorqueLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveActMotorSwitch: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveActParamSet: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveClass1Alarm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveContrMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveCoolerTempWarn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveDdsPerMds: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveDesMotorSwitch: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveDesParamSet: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveFastStop: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveFreqMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveImpulseEnabled: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveIndex: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveIntegDisable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveLinkVoltageOk: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveMotorTempWarn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveNumCrcErrors: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveParked: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.drivePowerOn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveProgMessages: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveReady: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveRunLevel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveSetupMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.driveSpeedSmoothing: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.effComp1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.effComp2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.enc1IsOn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.enc2IsOn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.encChoice: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.extUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.fctGenState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.feedRateOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.focStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.fxsInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.fxsStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.handwheelAss: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.impulseEnable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.index: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.isDriveUsed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.kVFactor: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.lag: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.logDriveNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.measFctState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.measPos1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.measPos2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.measPosDev: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.measUnit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.name: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.paramSetNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.preContrFactTorque: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.preContrFactVel: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.preContrMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.progIndexAxPosNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.qecLrnIsOn: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.refPtBusy: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.refPtCamNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.refPtPhase: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.refPtStatus: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.resolvStatus1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.resolvStatus2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeAcceptCheckPhase: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeAcceptTestMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeAcceptTestPhase: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeAcceptTestSE: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeAcceptTestState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeActPosDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeActVeloDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeActVeloLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeActiveCamTrack: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeAxisType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeDesChecksum1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeDesVeloLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeFctEnable: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeInputSig: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeInputSig2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeInputSigDrive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeInputSigDrive2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeMaxVeloDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeMeasPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeMeasPosDrive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeOutputSig: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeOutputSig2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeOutputSigCam: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeOutputSigCamDrive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeOutputSigDrive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeOutputSigDrive2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safePosCtrlActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.safeStopOtherAxis: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.spec: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.spindleModePiState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.stateContrActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.status: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.subSpec: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.toolBaseDistToGo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.toolBaseREPOS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.torqLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.traceState1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.traceState2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.traceState3: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.traceState4: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.trackErrContr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.trackErrDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.type: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAbsoluteEnc1DeltaInit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAbsoluteEnc1ErrCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAbsoluteEnc1State: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAbsoluteEnc1ZeroMonMax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAbsoluteEnc2DeltaInit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAbsoluteEnc2ErrCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAbsoluteEnc2State: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAbsoluteEnc2ZeroMonMax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaAxForce: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaCcCompValTotal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaCecCompVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaCpSync2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaCurr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaDesValFiltersActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaDesValFiltersDelay1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaDesValFiltersDelay2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaDesValFiltersDeltaPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaDistTorque: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaDpe: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc1CompVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc1ZeroMonAccessCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc1ZeroMonAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc1ZeroMonErrCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc1ZeroMonInit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc2CompVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc2ZeroMonAccessCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc2ZeroMonAct: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc2ZeroMonErrCnt: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaEnc2ZeroMonInit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaFoc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaFxs: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaIm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaIm1: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaIm2: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaIpoNcChanax: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaLagError: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaLoad: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaMotClampingState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaMotSensorAna: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaMotSensorConf: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaMotSensorDigi: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaPosctrlMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaPower: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaPressureA: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaPressureB: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaSce: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaStopSi: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaSyncDiff: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaSyncDiffStat: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaTempCompVal: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaTorque: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaTorqueAtLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaVactm: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaValveLift: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.vaXfaultSi: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.MachineAxis.varIncrVal: null
+          ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle:
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acConstCutS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSGear: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSVC: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSmaxAcc: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSmaxAccInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSmaxVelo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSmaxVeloInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSminVelo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSminVeloInfo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.acSpindState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.actGearStage: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.actSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.channelNo: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.cmdAngPos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.cmdConstCutSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.cmdGearStage: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.cmdGwps: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.cmdSpeed: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.driveLoad: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.gwpsActive: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.index: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.name: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.namePhys: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.opMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.pSMode: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.pSModeS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.psModePos: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.psModePosS: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.speedLimit: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.speedOvr: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.spindleType: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.status: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.turnState: null
+            ns=2;s=0401000008_AVZ_NHP6300_OPC_UA.NHP 6300.Sinumerik.Nck.Spindle.vcSGear: null
+  ns=2;s=Channel2:
+    ns=2;s=Channel2.61:
+      ns=2;s=Channel2.61.CHRP_CHC_1_View:
+        ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP:
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.PV: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.RAW: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[0]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[10]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[11]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[12]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[13]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[14]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[15]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[1]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[2]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[3]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[4]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[5]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[6]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[7]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[8]: null
+          ns=2;s=Channel2.61.CHRP_CHC_1_View.TEMP.STATE[9]: null
+      ns=2;s=Channel2.61.CHRP_CHC_2_View:
+        ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP:
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.PV: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.RAW: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[0]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[10]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[11]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[12]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[13]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[14]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[15]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[1]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[2]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[3]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[4]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[5]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[6]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[7]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[8]: null
+          ns=2;s=Channel2.61.CHRP_CHC_2_View.TEMP.STATE[9]: null
+      ns=2;s=Channel2.61.CHRP_CRC_1_View:
+        ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP:
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.PV: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.RAW: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[0]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[10]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[11]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[12]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[13]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[14]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[15]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[1]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[2]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[3]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[4]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[5]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[6]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[7]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[8]: null
+          ns=2;s=Channel2.61.CHRP_CRC_1_View.TEMP.STATE[9]: null
+      ns=2;s=Channel2.61.CHRP_CRC_2_View:
+        ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP:
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.PV: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.RAW: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[0]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[10]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[11]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[12]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[13]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[14]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[15]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[1]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[2]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[3]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[4]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[5]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[6]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[7]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[8]: null
+          ns=2;s=Channel2.61.CHRP_CRC_2_View.TEMP.STATE[9]: null
+      ns=2;s=Channel2.61.CHRP_FLC_1_View:
+        ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP:
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.PV: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.RAW: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[0]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[10]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[11]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[12]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[13]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[14]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[15]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[1]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[2]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[3]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[4]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[5]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[6]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[7]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[8]: null
+          ns=2;s=Channel2.61.CHRP_FLC_1_View.TEMP.STATE[9]: null
+      ns=2;s=Channel2.61.CHRP_FLC_2_View:
+        ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP:
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.PV: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.RAW: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[0]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[10]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[11]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[12]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[13]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[14]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[15]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[1]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[2]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[3]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[4]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[5]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[6]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[7]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[8]: null
+          ns=2;s=Channel2.61.CHRP_FLC_2_View.TEMP.STATE[9]: null
+      ns=2;s=Channel2.61.DB_MB_HMI_VIEW:
+        ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER:
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.PV: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.RAW: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[0]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[10]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[11]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[12]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[13]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[14]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[15]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[1]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[2]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[3]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[4]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[5]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[6]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[7]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[8]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_1_TEMPER.STATE[9]: null
+        ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER:
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.PV: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.RAW: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[0]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[10]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[11]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[12]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[13]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[14]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[15]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[1]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[2]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[3]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[4]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[5]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[6]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[7]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[8]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M1_2_TEMPER.STATE[9]: null
+        ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER:
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.PV: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.RAW: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[0]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[10]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[11]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[12]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[13]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[14]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[15]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[1]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[2]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[3]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[4]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[5]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[6]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[7]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[8]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_1_TEMPER.STATE[9]: null
+        ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER:
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.PV: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.RAW: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[0]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[10]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[11]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[12]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[13]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[14]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[15]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[1]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[2]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[3]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[4]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[5]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[6]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[7]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[8]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M2_2_TEMPER.STATE[9]: null
+        ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER:
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.PV: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.RAW: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[0]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[10]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[11]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[12]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[13]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[14]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[15]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[1]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[2]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[3]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[4]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[5]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[6]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[7]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[8]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_1_TEMPER.STATE[9]: null
+        ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER:
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.PV: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.RAW: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[0]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[10]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[11]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[12]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[13]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[14]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[15]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[1]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[2]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[3]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[4]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[5]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[6]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[7]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[8]: null
+          ns=2;s=Channel2.61.DB_MB_HMI_VIEW.M3_2_TEMPER.STATE[9]: null
+      ns=2;s=Channel2.61.TEMP:
+        ns=2;s=Channel2.61.TEMP.BLOCK_BY_MES: null
+      ns=2;s=Channel2.61.USS_Param:
+        ns=2;s=Channel2.61.USS_Param.CHRP_CHC_1:
+          ns=2;s=Channel2.61.USS_Param.CHRP_CHC_1.TEMP:
+            ns=2;s=Channel2.61.USS_Param.CHRP_CHC_1.TEMP.DONE: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CHC_1.TEMP.ERROR: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CHC_1.TEMP.STATUS: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CHC_1.TEMP.VALUE: null
+        ns=2;s=Channel2.61.USS_Param.CHRP_CHC_2:
+          ns=2;s=Channel2.61.USS_Param.CHRP_CHC_2.TEMP:
+            ns=2;s=Channel2.61.USS_Param.CHRP_CHC_2.TEMP.DONE: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CHC_2.TEMP.ERROR: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CHC_2.TEMP.STATUS: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CHC_2.TEMP.VALUE: null
+        ns=2;s=Channel2.61.USS_Param.CHRP_CRC_1:
+          ns=2;s=Channel2.61.USS_Param.CHRP_CRC_1.TEMP:
+            ns=2;s=Channel2.61.USS_Param.CHRP_CRC_1.TEMP.DONE: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CRC_1.TEMP.ERROR: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CRC_1.TEMP.STATUS: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CRC_1.TEMP.VALUE: null
+        ns=2;s=Channel2.61.USS_Param.CHRP_CRC_2:
+          ns=2;s=Channel2.61.USS_Param.CHRP_CRC_2.TEMP:
+            ns=2;s=Channel2.61.USS_Param.CHRP_CRC_2.TEMP.DONE: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CRC_2.TEMP.ERROR: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CRC_2.TEMP.STATUS: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_CRC_2.TEMP.VALUE: null
+        ns=2;s=Channel2.61.USS_Param.CHRP_FLC_1:
+          ns=2;s=Channel2.61.USS_Param.CHRP_FLC_1.TEMP:
+            ns=2;s=Channel2.61.USS_Param.CHRP_FLC_1.TEMP.DONE: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_FLC_1.TEMP.ERROR: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_FLC_1.TEMP.STATUS: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_FLC_1.TEMP.VALUE: null
+        ns=2;s=Channel2.61.USS_Param.CHRP_FLC_2:
+          ns=2;s=Channel2.61.USS_Param.CHRP_FLC_2.TEMP:
+            ns=2;s=Channel2.61.USS_Param.CHRP_FLC_2.TEMP.DONE: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_FLC_2.TEMP.ERROR: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_FLC_2.TEMP.STATUS: null
+            ns=2;s=Channel2.61.USS_Param.CHRP_FLC_2.TEMP.VALUE: null
