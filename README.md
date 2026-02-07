@@ -1,41 +1,69 @@
-docker compose down --remove-orphans
-docker compose up --build
+OPC UA Data Pipeline & ML Processing
+Репозиторий содержит систему сбора, обработки и хранения промышленных данных (IoT) с использованием протокола OPC UA. Данные проходят через конвейер обработки в реальном времени и сохраняются в аналитическую БД для последующего обучения моделей машинного обучения.
 
+🏗 Технологический стек
+Data Source: OPC UA (промышленные датчики/контроллеры).
 
-SELECT * 
-FROM (
-    SELECT 
-        ROW_NUMBER() OVER (
-            PARTITION BY window 
-            ORDER BY count DESC
-        ) AS row_number, 
-        name, 
-        value,
-        type,
-        ts,
-        count
-    FROM (
-        SELECT 
-            name, 
-            value,
-            type,
-            ts,
-            count
-            hop(INTERVAL '10' SECOND, INTERVAL '5' HOUR) AS window,
-            COUNT(*) AS count 
-        FROM connect 
-        GROUP BY name, value, window
-    ) AS grouped_bids
-) AS ranked_bids 
+Ingestion & Streaming: Redpanda (стриминг сообщений) / Arroyo.
 
+Storage: ClickHouse (высокопроизводительная колончатая БД).
 
+Observability: SigNoz (мониторинг и трейсинг).
 
-CREATE TABLE act_tool_data (
-    name String CODEC(LZ4),
-    value String CODEC(LZ4),  -- Use LZ4 compression for the value column
-    type String CODEC(LZ4),
-    ts DateTime CODEC(DoubleDelta) -- Use LZ4 compression for the ts column as an integer
-) ENGINE = MergeTree()
-PARTITION BY toStartOfHour(toDateTime(ts))  -- Partition by the start of the hour of the timestamp
-ORDER BY (name, ts)  -- Order by name first, then by timestamp for efficient querying
-SETTINGS index_granularity = 8192;  -- Adjust index granularity as needed
+Proxy/Web: Nginx.
+
+Orchestration: Docker Compose.
+
+ML: Модели обучаются в Google Colab на основе данных, экспортированных из ClickHouse.
+
+📁 Структура проекта
+app/ — основной исходный код приложения (интеграция с OPC UA).
+
+clickhouse/ — конфигурации и схемы таблиц для хранения метрик.
+
+data_opcua/ — конфигурационные файлы для подключения к OPC UA серверам.
+
+redpanda/ — настройки брокера сообщений для очередей данных.
+
+signoz/ — конфигурация системы мониторинга производительности.
+
+nginx/ — настройки прокси-сервера.
+
+docker-compose.yml — файл для быстрого развертывания всей инфраструктуры.
+
+🚀 Быстрый запуск
+Предварительные требования
+Docker и Docker Compose
+
+Python 3.10+ (используется менеджер пакетов uv)
+
+Развертывание инфраструктуры
+Клонируйте репозиторий:
+
+Bash
+
+git clone https://github.com/amirgar/project.git
+cd project
+Запустите все сервисы (ClickHouse, Redpanda, SigNoz):
+
+Bash
+
+docker-compose up -d
+Настройте окружение для Python-скриптов:
+
+Bash
+
+# Проект использует uv для управления зависимостями
+uv venv
+source .venv/bin/activate
+🧠 Машинное обучение
+Данные из ClickHouse выгружаются для анализа. В рамках данного воркфлоу:
+
+Собираются временные ряды с OPC UA.
+
+Проводится агрегация в ClickHouse.
+
+Обучение модели (ML) реализовано во внешнем ноутбуке (Google Colab), который использует очищенные данные из этой системы.
+
+🛠 Мониторинг
+Для отслеживания состояния пайплайна и задержек (latency) используйте интерфейс SigNoz, доступный после запуска контейнеров.
