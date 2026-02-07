@@ -10,7 +10,7 @@
 * **Database:** [ClickHouse](https://clickhouse.com/) (Колоночная БД для аналитики)
 * **Observability:** [SigNoz](https://signoz.io/) (Мониторинг и трейсинг)
 * **Infrastructure:** Docker & Docker Compose
-* **ML:** Google Colab (Обучение моделей на собранных данных)[Colab](https://colab.research.google.com/drive/1-DcVvvq7hJHvCE3uJKN84ef3YNxLPwox/)
+* **ML:** Google Colab (Обучение моделей на собранных данных)[Colab]: (https://colab.research.google.com/drive/1-DcVvvq7hJHvCE3uJKN84ef3YNxLPwox/)
 
 ---
 
